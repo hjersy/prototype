@@ -1,0 +1,114 @@
+h2 a, h2 a:hover{
+    color: #444;}
+        
+.center{
+text-align: center;}
+
+.margin50{
+    margin: 50px 0;}
+
+.margin30{
+    margin: 30px 0;}
+
+.banner{
+    background: url('../img/banner.png') no-repeat;
+    height: 300px;
+    width: 100%;
+    background-position: center center;
+    background-size: cover;
+}
+.circle {
+  margin-top: 1em;
+  -moz-border-radius: 130px;
+  -webkit-border-radius: 130px;
+  border-radius: 130px;
+  height: 200px;
+  width: 200px;
+  background-color: #444444;
+  border: none;
+  display: table-cell;
+  vertical-align: middle;
+  color: white;
+  text-align: center;
+  display: inline-block;
+  line-height: 200px;}
+
+.circle:hover{
+    background-color: #222;
+    opacity:20;}
+
+
+.circle h3 {
+   color: #fff;
+   font-size: 17px;
+   display: inline-block;
+   width: 180px;
+   vertical-align: middle;}
+
+.circle p {
+    display: none;
+    width: 200px;
+    height: 200px;
+    vertical-align: middle;
+    padding: 0 20px;
+    font-size: 13px;}
+
+.circle.checkbox{
+    cursor:pointer;
+}
+.circle.checkbox.active {
+    background-image: url('../img/check.png');
+    background-size: 40px 40px;
+    background-repeat: no-repeat;
+    background-position: 80px 135px;
+    background-color: #666;
+}
+.circle.checkbox.active:hover {
+    background-color: #777;
+        
+}
+.center{
+text-align: center;}
+
+.margin50{
+    margin: 50px 0;}
+
+.margin35{
+    margin: 35px 0;}
+.margin30{
+    margin: 30px 0;}
+
+
+.linkedin img, .linkedin span{
+    display: inline-block;
+    vertical-align: middle;}
+
+.linkedin img{
+    padding-right: 20px;}
+
+.linkedin span {
+    padding-top: 4px;}
+/*
+.joinusbox a{
+    border-color: #00bdff;
+    border-width: 1px;
+    color: #00bdff;}
+
+.joinusbox a:hover{
+    color: #fff !important;}
+*/
+.joinusbox.small.button{    
+    border: 2px solid #00bdff;
+    background-color: white;
+}
+.joinusbox.small.button a{
+    color: #00bdff;   
+}
+.joinusbox.small.button:hover, .joinusbox.small.button a:hover{    
+    border: 1px solid #00bdff !important;
+    background-color: #00bdff !important;
+    color: #fff !important;
+}
+.button{
+    border-radius:5px;}
+
