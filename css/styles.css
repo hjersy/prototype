@@ -113,3 +113,54 @@ text-align: center;}
 .button{
     border-radius:5px;}
 
+
+.option {
+  margin-top: -3em;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  height: 200px;
+  width: 200px;
+  background-color: #444444;
+  border: none;
+  display: table-cell;
+  vertical-align: middle;
+  color: white;
+  text-align: center;
+  display: inline-block;
+  line-height: 200px;}
+
+.option:hover{
+    background-color: #222;
+    opacity:20;}
+
+
+.option h3 {
+   color: #fff;
+   font-size: 17px;
+   display: inline-block;
+   width: 180px;
+   vertical-align: middle;}
+
+.option p {
+    display: none;
+    width: 200px;
+    height: 200px;
+    vertical-align: middle;
+    padding: 0 20px;
+    font-size: 13px;}
+
+.option.checkbox{
+    cursor:pointer;
+}
+.option.checkbox.active {
+    background-image: url('../img/check.png');
+    background-size: 40px 40px;
+    background-repeat: no-repeat;
+    background-position: 80px 135px;
+    background-color: #666;
+}
+.option.checkbox.active:hover {
+    background-color: #777;
+        
+}
