@@ -11,11 +11,12 @@ text-align: center;}
     margin: 30px 0;}
 
 .banner{
-    background: url('../img/banner.png') no-repeat;
+    background: url('../img/banner.jpg') no-repeat;
     height: 300px;
     width: 100%;
     background-position: center center;
     background-size: cover;
+    border-color: white;
 }
 .circle {
   margin-top: 1em;
